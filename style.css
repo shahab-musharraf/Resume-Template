@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    color: yellow;
+    background-color: black;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px 0px;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid grey;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.container .left {
+    width: 35%;
+}
+
+.blue{
+    background-color: #5271FF;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+}
+.blue img {
+    border-radius: 50%;
+}
+.blue h4{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.blue h5{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: .7rem;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.github {
+    color: white;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedIn {
+    color: white;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey{
+    background-color: #3C4240;
+    height: 70%;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grey .contacts {
+    color: white;
+}
+.grey .contacts hr {
+    margin-top: 1px;
+    color: white;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+.grey .contacts .details {
+    padding: 10px 8px;
+}
+.grey .contacts .details p {
+    font-size: .7rem;
+    margin: 5px 0;
+    color: #74797B;
+}
+
+
+.grey .skills {
+    color: white;
+}
+.grey .skills hr {
+    margin-top: 1px;
+    color: white;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+.grey .skills .details {
+    padding: 10px 8px;
+    font-size: .7rem;
+}
+.grey .skills .details  p{
+    display: inline;
+    color: #E9F2F5;
+}
+.grey .skills .details progress{
+    height: 8px;
+}
+
+
+.grey .certificates {
+    color: white;
+}
+.grey .certificates hr {
+    margin-top: 1px;
+    color: white;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+.grey .certificates .details {
+    padding: 10px 8px;
+}
+.grey .certificates .details p {
+    font-size: .7rem;
+    color: #E9F2F5;
+}
+
+/* Right Part Started Now */
+
+
+.right {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right h4 {
+    color: #5E85FF;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.right hr {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.objective p{
+    color: rgb(176, 172, 172);
+    font-size: .6rem;
+}
+
+.work-experience .role {
+    display: flex;
+    margin: 2px 0;
+
+}
+.work-experience .role .left {
+    width: 10%;
+}
+/* .work-experience .role .left i{
+    background-color: black;
+    color: white;
+    font-size: .3rem;
+    padding: 4px;
+    border-radius: 50% ;
+} */
+.work-experience .role .left h5{
+    margin-top: 1px;
+    background-color: black;
+    width: fit-content;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.work-experience .role .left i{
+    font-size: 7px;
+    color: white;
+}
+.work-experience .role .right {
+    padding: 3px 0;
+    width: 90%;
+    display: flex;
+    gap: 5px;
+}
+
+.work-experience .role .right .heading{
+    font-size: .8rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.work-experience .role .right p{
+    color: rgb(176, 172, 172);
+    font-size: .6rem;
+}
+.work-experience .role .right h5{
+    font-size: .5rem;
+}
