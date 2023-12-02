@@ -117,7 +117,6 @@ body {
     font-size: .7rem;
 }
 .grey .skills .details  p{
-    display: inline;
     color: #E9F2F5;
 }
 .grey .skills .details progress{
